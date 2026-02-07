@@ -8,7 +8,7 @@ function initTypingEffect() {
   const cursorEl = document.getElementById("typing-cursor");
   if (!textEl || !cursorEl) return;
 
-  const roles = ["Frontend Developer", "Python Developer", "Data Analyst"];
+  const roles = ["Full-Stack Developer", "Python Developer", "Data Analyst"];
 
   let roleIndex = 0;
   let charIndex = 0;
@@ -220,10 +220,10 @@ function initTypingEffect() {
   if (!textEl) return;
 
   const roles = [
+    "Full-Stack Developer",
+    "Python Developer",
     "Data Analyst",
     "Web Developer",
-    "Frontend Developer",
-    "Python Enthusiast",
   ];
 
   let roleIndex = 0;
