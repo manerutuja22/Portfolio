@@ -1,5 +1,6 @@
 Personal Portfolio – Rutuja Mane
-About The Project
+
+About The Project:-
 This is my personal portfolio website designed and developed to showcase my skills, projects, education, and contact information as a final-year Computer Science student and aspiring Full-Stack Developer / Python Developer.
 The portfolio focuses on clean UI design, smooth animations, and responsive layout while maintaining performance and SEO best practices.
 
@@ -18,10 +19,12 @@ SEO meta tags and Open Graph support
 Dynamic footer year using JavaScript
 
 Tech Stack:-
+
 Frontend:-
 HTML5
 CSS3 (Flexbox, Grid, Glassmorphism, Animations)
 JavaScript (ES6)
+
 Tools & Services:-
 Git & GitHub
 EmailJS (Contact Form)
