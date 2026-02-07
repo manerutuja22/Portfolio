@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- ✅ Basic SEO -->
+    <meta charset="UTF-8" />
+    <title>Rutuja Mane |  Full-Stack Developer/Python Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Rutuja Mane, final-year Computer Science student and aspiring Full-Stack Developer/Python Developer skilled in Python, SQL, Excel, HTML, CSS, and JavaScript."
+    />
+    <meta
+      name="keywords"
+      content="Rutuja Mane, Full-Stack Developer , Python Developer, Data Analytics, Python, SQL, Excel, Web Developer, Frontend Developer, Portfolio, Solapur"
+    />
+    <meta name="author" content="Rutuja Mane" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Open Graph / Social (for sharing) -->
+    <meta property="og:title" content="Rutuja Mane | Full-Stack Developer/Python Developer" />
+    <meta
+      property="og:description"
+      content="Final-year Computer Science student with skills in Full-Stack Developer/Python Developer."
+    />
+    <!-- Optional: replace with your own preview image -->
+    <!-- <meta property="og:image" content="images/og-preview.png" /> -->
+    <meta property="og:type" content="website" />
+
+    <!-- Favicon (optional) -->
+    <!-- <link rel="icon" href="images/favicon.png" /> -->
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ========= SOFT BACKGROUND GRADIENT & GLOW ORBS ========= -->
+    <div class="bg-gradient"></div>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <!-- ================= HEADER / NAVBAR ================= -->
+    <header class="header" id="top">
+      <div class="container header-inner">
+        <!-- Logo / Name -->
+        <div class="logo">
+          <span class="logo-mark">RM</span>
+          <span class="logo-text">Rutuja&nbsp;Mane</span>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav" id="nav-menu">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <!-- Mobile hamburger button -->
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main>
+      <!-- ========== HERO / HOME SECTION ========== -->
+      <section class="section hero reveal" id="home">
+        <div class="container hero-grid">
+          <!-- Left column: Introduction & CTA -->
+          <div class="hero-content">
+            <p class="hero-eyebrow">
+              Final-year Computer Science Student. Aspiring Full-Stack Developer&amp; Python Developer
+            </p>
+
+            <h1 class="hero-title">
+              Hi, I’m <span class="accent-text">Rutuja&nbsp;Mane</span>
+            </h1>
+
+            <!-- Typing animation (handled in script.js) -->
+            <div class="typing-wrapper">
+              <span class="typing-label">I’m a</span>
+              <span class="typing-text" id="typing-text"></span>
+              <span class="typing-cursor" id="typing-cursor">|</span>
+            </div>
+
+           
+
+            <!-- Call-to-action buttons -->
+            <div class="hero-actions">
+              <!-- TODO: put your actual resume file in /pdf and update the href -->
+              <a
+                href="Rutuja Mane.pdf"
+                class="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Resume
+              </a>
+              <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+
+            <!-- Short info chips -->
+            <div class="hero-info">
+              <div class="info-item">
+                <span class="info-label">Location</span>
+                <span class="info-value">Solapur, Maharashtra, India</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Education</span>
+                <span class="info-value">B.Tech CSE · SGPA: 9.14</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Roles</span>
+                <span class="info-value">Python Developer/ Web Developer</span>
+              </div>
+            </div>
+
+            <!-- Quick social / contact pills -->
+            <div class="hero-socials">
+              <a
+                href="mailto:manerutuja719@gmail.com"
+                class="social-pill"
+                aria-label="Send email"
+              >
+                ✉️ Email
+              </a>
+              <a
+                href="https://www.linkedin.com/in/rutuja-mane-372b63262"
+                target="_blank"
+                rel="noreferrer"
+                class="social-pill"
+                aria-label="LinkedIn profile"
+              >
+                💼 LinkedIn
+              </a>
+              <a
+                href="https://github.com/manerutuja22"
+                target="_blank"
+                rel="noreferrer"
+                class="social-pill"
+                aria-label="GitHub profile"
+              >
+                💻 GitHub
+              </a>
+            </div>
+          </div>
+
+          <!-- Right column: profile card -->
+          <aside class="hero-profile-card">
+            <div class="profile-image-wrapper">
+              <!-- ✅ Replace profile.jpg with your actual photo in /images/ -->
+              <img
+                src="images/profile.png"
+                alt="Portrait of Rutuja Mane"
+                class="profile-image"
+              />
+              <div class="profile-glow"></div>
+            </div>
+            <div class="profile-details">
+              <p class="profile-role">Full-Stack Developer &amp; Python Developer</p>
+              <!-- <p class="profile-text">
+                I enjoy exploring datasets, creating dashboards, and building full‑stack projects
+                that solve real problems.
+              </p> -->
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- ========== ABOUT SECTION ========== -->
+      <section class="section reveal" id="about">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-subtitle">
+      Problem-solver focused on building real-world applications with Python and modern web technologies.
+    </p>
+
+    <div class="about-grid">
+      <p class="about-text">
+        I’m a final-year <strong>B.Tech Computer Science</strong> student aiming to work as a
+        <strong>Full-Stack Developer</strong> and <strong>Python Developer</strong>.  
+        I enjoy designing clean user interfaces, building backend APIs, and analysing data to
+        create meaningful solutions. My goal is to build applications that are both
+        <strong>technically strong</strong> and <strong>easy to use</strong>.
+      </p>
+
+      <ul class="about-list">
+        <li>✔️ Build responsive frontends using HTML, CSS & JavaScript</li>
+        <li>✔️ Develop backend APIs using Node.js, Express & MongoDB</li>
+        <li>✔️ Strong Python skills for data analysis and automation</li>
+        <li>✔️ Comfortable with Git, debugging, and teamwork</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+      <!-- ========== SKILLS SECTION ========== -->
+      <section class="section section-alt reveal" id="skills">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-subtitle">
+            A combination of data analysis, web development, databases, and tools I use to build
+            end‑to‑end solutions.
+          </p>
+
+          <div class="skills-grid">
+            <!-- Data Analysis -->
+            <article class="skill-card">
+              <div class="skill-icon">📊</div>
+              <h3 class="skill-title">Data Analysis</h3>
+
+              <!-- Logos row (all images in /images/) -->
+              <div class="skill-logos">
+                <div class="skill-logo" title="Python">
+                  <img src="images/python.svg" alt="Python logo" />
+                </div>
+                <div class="skill-logo" title="Pandas">
+                  <img src="images/pandas.svg" alt="Pandas logo" />
+                </div>
+                <div class="skill-logo" title="NumPy">
+                  <img src="images/numpy.svg" alt="NumPy logo" />
+                </div>
+              </div>
+
+              <p class="skill-text">
+                Explore and clean datasets, find patterns, and present insights clearly.
+              </p>
+              <ul class="skill-list">
+                <li>Python (Pandas, NumPy)</li>
+                <li>Exploratory Data Analysis</li>
+                <li>Data cleaning &amp; preprocessing</li>
+              </ul>
+            </article>
+
+            <!-- Web Development -->
+            <article class="skill-card">
+              <div class="skill-icon">💻</div>
+              <h3 class="skill-title">Web Development</h3>
+
+              <div class="skill-logos">
+                <div class="skill-logo" title="HTML5">
+                  <img src="images/html5-original.svg" alt="HTML5 logo" />
+                </div>
+                <div class="skill-logo" title="CSS3">
+                  <img src="images/css3-original.svg" alt="CSS3 logo" />
+                </div>
+                <div class="skill-logo" title="JavaScript">
+                  <img src="images/javascript-original.svg" alt="JavaScript logo" />
+                </div>
+              </div>
+
+              <p class="skill-text">
+                Build responsive, accessible UIs and simple APIs for data‑driven apps.
+              </p>
+              <ul class="skill-list">
+                <li>HTML5, CSS3, JavaScript (ES6+)</li>
+                <li>Responsive layouts</li>
+                <li>Node.js &amp; Express basics</li>
+              </ul>
+            </article>
+
+            <!-- Databases & BI -->
+            <article class="skill-card">
+              <div class="skill-icon">🗄️</div>
+              <h3 class="skill-title">Databases &amp; BI</h3>
+
+              <div class="skill-logos">
+                <div class="skill-logo" title="MySQL">
+                  <img src="images/mysql-original.svg" alt="MySQL logo" />
+                </div>
+                <div class="skill-logo" title="PostgreSQL">
+                  <img src="images/postgresql-original.svg" alt="PostgreSQL logo" />
+                </div>
+                <div class="skill-logo" title="Tableau">
+                  <img src="images/tableau.svg" alt="Tableau logo" />
+                </div>
+              </div>
+
+              <p class="skill-text">
+                Store, query, and visualise data to support decisions.
+              </p>
+              <ul class="skill-list">
+                <li>MySQL &amp; PostgreSQL (joins, filters, aggregates)</li>
+                <li>Basic schema design</li>
+                <li>Dashboards in Tableau</li>
+              </ul>
+            </article>
+
+            <!-- Tools & Professional Skills -->
+            <article class="skill-card">
+              <div class="skill-icon">⚙️</div>
+              <h3 class="skill-title">Tools &amp; Professional Skills</h3>
+
+              <div class="skill-logos">
+                <div class="skill-logo" title="Git">
+                  <img src="images/git-original.svg" alt="Git logo" />
+                </div>
+                <div class="skill-logo" title="GitHub">
+                  <img src="images/github-original.svg" alt="GitHub logo" />
+                </div>
+                <div class="skill-logo" title="Excel">
+                  <img src="images/excel.svg" alt="Excel logo" />
+                </div>
+              </div>
+
+              <p class="skill-text">
+                Tools and habits that help me ship work and collaborate smoothly.
+              </p>
+              <ul class="skill-list">
+                <li>Git &amp; GitHub</li>
+                <li>MS Excel (formulas, charts, pivot tables)</li>
+                <li>Communication, problem‑solving, teamwork</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== PROJECTS SECTION ========== -->
+      <section class="section reveal" id="projects">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">
+            Real and academic projects where I applied data analysis and web development skills.
+          </p>
+
+          <div class="projects-grid">
+            <!-- Project 1: Blood Bank Management System -->
+            <article class="project-card">
+              <div class="project-image-wrapper">
+                <!-- ✅ Add screenshot as images/project-blood-bank.jpg -->
+                <img
+                  src="images/blood.png"
+                  alt="Blood Bank Management System"
+                  class="project-image"
+                />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Blood Bank Management System</h3>
+                <p class="project-tech">
+                  HTML · CSS · JavaScript · Node.js · Express.js · MongoDB
+                </p>
+                <ul class="project-text">
+                  <li>Built a full‑stack app to manage blood donors and recipients.</li>
+                  <li>Designed a responsive UI using HTML, CSS, and JavaScript.</li>
+                  <li>Created REST APIs with Node.js &amp; Express; stored data in MongoDB.</li>
+                  <li>Implemented user authentication and tested endpoints with Postman.</li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/manerutuja22/Blood-Bank-Management-System"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="btn-link"
+                  >
+                    GitHub
+                  </a>
+                  <!-- Optional: add live demo link if you deploy it -->
+                  <a
+                    href="#"
+                    class="btn-link disabled"
+                    aria-disabled="true"
+                    title="Live demo coming soon"
+                  >
+                    Live Demo
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2: Plant Disease Detection -->
+            <article class="project-card">
+              <div class="project-image-wrapper">
+                <!-- ✅ Add screenshot as images/project-plant-disease.jpg -->
+                <img
+                  src="images/palnt.png"
+                  alt="Plant Disease Detection using Image Recognition"
+                  class="project-image"
+                />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">
+                  Plant Disease Detection using Image Recognition (Ongoing)
+                </h3>
+                <p class="project-tech">
+                  Python · Machine Learning · Image Processing
+                </p>
+                <ul class="project-text">
+                  <li>Preprocessed plant image datasets for model training and testing.</li>
+                  <li>Applied ML techniques in Python to classify plant diseases.</li>
+                  <li>Evaluated accuracy and tuned models to improve performance.</li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/manerutuja22/plant-disease-detection"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="btn-link"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href="#"
+                    class="btn-link disabled"
+                    aria-disabled="true"
+                    title="Live demo coming soon"
+                  >
+                    Live Demo
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3: Portfolio / Dashboards -->
+            <article class="project-card">
+              <div class="project-image-wrapper">
+                <!-- ✅ Add screenshot as images/project-portfolio.jpg -->
+                <img
+                  src="images/portfolio.png"
+                  alt="Personal Portfolio and Dashboards"
+                  class="project-image"
+                />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Personal Portfolio &amp; Dashboards</h3>
+                <p class="project-tech">
+                  HTML · CSS · JavaScript 
+                </p>
+                <ul class="project-text">
+                  <li>Designed this single‑page portfolio with soft gradients and animations.</li>
+                  <li>Showcases skills, projects, and a contact form powered by EmailJS.</li>
+                  <li>Created small Excel/Tableau dashboards to present sample analyses.</li>
+                </ul>
+                <div class="project-links">
+                  <a href="#top" class="btn-link">View This Site</a>
+                  <a
+                    href="#"
+                    class="btn-link disabled"
+                    aria-disabled="true"
+                    title="GitHub coming soon"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== EDUCATION SECTION ========== -->
+      <section class="section section-alt reveal" id="education">
+        <div class="container">
+          <h2 class="section-title">Education</h2>
+
+          <!-- Simple vertical timeline -->
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">B.Tech – Computer Science and Engineering</h3>
+                <p class="timeline-org">
+                  Brahmdevdada Mane Institute of Technology, Solapur
+                </p>
+                <p class="timeline-meta">Solapur, Maharashtra · SGPA: 9.14</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">12th (HSC)</h3>
+                <p class="timeline-org">Sanjivan Vidyalaya and Junior College, Modnimb</p>
+                <p class="timeline-meta">Modnimb, Maharashtra · 69.00%</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">10th (SSC)</h3>
+                <p class="timeline-org">Sanjivan Vidyalaya and Junior College, Modnimb</p>
+                <p class="timeline-meta">Modnimb, Maharashtra · 84.60%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== CONTACT SECTION ========== -->
+      <section class="section reveal" id="contact">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">
+            Let’s collaborate on data‑driven projects or web applications. I usually reply within a
+            day.
+          </p>
+
+          <div class="contact-grid">
+            <!-- Contact details + quick buttons -->
+            <div class="contact-info">
+              <h3 class="contact-heading">Get in touch</h3>
+              <ul class="contact-list">
+                <li>
+                  <span class="contact-label">Phone:</span>
+                  <a href="tel:+918856898871">+91 88568 98871</a>
+                </li>
+                <li>
+                  <span class="contact-label">Email:</span>
+                  <a href="mailto:manerutuja719@gmail.com">manerutuja719@gmail.com</a>
+                </li>
+                <li>
+                  <span class="contact-label">Location:</span>
+                  Solapur, Maharashtra, India
+                </li>
+              </ul>
+
+              <div class="contact-buttons">
+                <a href="mailto:manerutuja719@gmail.com" class="btn btn-outline">Email Me</a>
+                <a
+                  href="https://www.linkedin.com/in/rutuja-mane-372b63262"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="btn btn-outline"
+                >
+                  LinkedIn
+                </a>
+                <a
+                  href="https://github.com/manerutuja22"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="btn btn-outline"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+
+            <!-- EmailJS contact form -->
+            <div class="contact-form-wrapper">
+              <h3 class="contact-heading">Send me a message</h3>
+              <!--
+                This form is wired to EmailJS in script.js.
+                After you create SERVICE ID, TEMPLATE ID and PUBLIC KEY in EmailJS,
+                update them in js/script.js (initEmailJS function).
+              -->
+              <form id="contact-form" class="contact-form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="user_name"
+                      placeholder="Your name"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="user_email"
+                      placeholder="you@example.com"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Data analysis / web development opportunity"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    placeholder="Tell me about your project or opportunity..."
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary form-submit-btn">
+                  Send Message
+                </button>
+
+                <!-- Status text updated by JS (success / error) -->
+                <p class="form-status" id="form-status"></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Rutuja Mane. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- EmailJS SDK (required for contact form) -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- Main JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
