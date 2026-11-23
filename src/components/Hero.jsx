@@ -53,7 +53,7 @@ export default function Hero() {
                 </div>
                 <div className="absolute -top-3 -right-2 sm:-top-4 sm:-right-4 bg-white border border-[#E2E8F0] px-4 py-2 rounded-xl shadow-lg flex items-center gap-2">
                   <div className="w-8 h-8 rounded-lg bg-blue-50 text-[#2563EB] flex items-center justify-center text-sm"><i className="fa-solid fa-graduation-cap"></i></div>
-                  <div><div className="text-[10px] text-[#64748B] font-medium uppercase">B.Tech CSE</div><div className="text-xs font-bold text-[#0F172A]">SGPA 9.16</div></div>
+                  <div><div className="text-[10px] text-[#64748B] font-medium uppercase">B.Tech CSE</div><div className="text-xs font-bold text-[#0F172A]">SGPA 9.17</div></div>
                 </div>
                 <div className="absolute -bottom-3 -left-2 sm:-bottom-4 sm:-left-4 bg-white border border-[#E2E8F0] px-4 py-2 rounded-xl shadow-lg flex items-center gap-2">
                   <div className="w-8 h-8 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center text-sm"><i className="fa-solid fa-check-circle"></i></div>
